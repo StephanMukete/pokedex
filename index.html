@@ -1,21 +1,45 @@
 <head>
-		<meta charset="UTF-8" />
-		<title>Mukete's Pokedex</title>
-    <link rel="stylesheet" href="main.css">
-		<meta name="viewport">
-	</head>
-	<body>
+	<meta charset="UTF-8" />
+	<title>Mukete's Pokedex</title>
+<link rel="stylesheet" href="main.css">
+	<meta name="viewport">
+</head>
+<body>
 
-		<div id="home" class="content">
-			<h2>Trainer</h2>
+	<div id="home" class="content">
+		<div class="box">
+			<div class="inner">
+			<span> Stephan's Pokedex</span>
+			</div>
+			<div class="inner">
+			<span>Welcome to</span>
+			</div>
 		</div>
-		<div id="pokemon1" class="panel">
-			<div class="content">
-				<h2>Pokedex 1</h2>
-	<button id="btn">view</button>
-				<div class="grid">
-					<img id="Img1" alt="">
-					<div id="pokemonStats1"></div>
+		<div class="imgt">
+			<img id='imgt' alt="">
+		</div>
+		<div id="table">
+		<div id="centeralign">
+			<h1>Here comes the Trainer!!!!!</h1>
+		</div>
+		</div>
+	</div>
+	<div id="pokemon1" class="panel">
+		<div class="content">
+			<h2>Fighter 1</h2>
+			<div class="grid">
+				<div class="box2">
+					<div class="inner">
+						<span>.<img id="Img-21" alt=""></span>
+					</div>
+					<div class="inner">
+						<span>.<img id="Img1" alt=""></span>
+					</div>
+				</div>
+
+				<div id="pokemonStats1"></div>
+				<div class="viewStats">
+					<button id="btn">View Stats</button>
 					<div class="bars">
 						<div class="bar" id="bar1"><div class="child"></div></div>
 						<div class="clr"></div>
@@ -27,12 +51,22 @@
 				</div>
 			</div>
 		</div>
-		<div id="pokemon2" class="panel">
-			<div class="content">
-        <h2>Pokedex 2</h2>
-				<div class="grid">
-					<img id="Img2" alt="">
-					<div id="pokemonStats2"></div>
+	</div>
+	<div id="pokemon2" class="panel">
+		<div class="content">
+	<h2>Fighter 2</h2>
+			<div class="grid">
+				<div class="box2">
+					<div class="inner">
+						<span>.<img id="Img-22" alt=""></span>
+					</div>
+					<div class="inner">
+						<span>.<img id="Img2" alt=""></span>
+					</div>
+				</div>
+				<div id="pokemonStats2"></div>
+				<div class="viewStats">
+					<button id="btnPok2">view Stats</button>
 					<div class="bars">
 						<div class="bar" id="bar4"><div class="child"></div></div>
 						<div class="clr"></div>
@@ -43,12 +77,22 @@
 				</div>
 			</div>
 		</div>
-		<div id="pokemon3" class="panel">
-			<div class="content">
-				<h2>Pokedex 3</h2>
-				<div class="grid">
-					<img id="Img3" alt="">
-					<div id="pokemonStats3"></div>
+	</div>
+	<div id="pokemon3" class="panel">
+		<div class="content">
+			<h2>Pokedex 3</h2>
+			<div class="grid">
+				<div class="box2">
+					<div class="inner">
+						<span>.<img id="Img-23" alt=""></span>
+					</div>
+					<div class="inner">
+						<span>.<img id="Img3" alt=""></span>
+					</div>
+				</div>
+				<div id="pokemonStats3"></div>
+				<div class="viewStats">
+					<button id="btnPok3">view Stats</button>
 					<div class="bars">
 						<div class="bar" id="bar7"><div class="child"></div></div>
 						<div class="clr"></div>
@@ -59,15 +103,20 @@
 				</div>
 			</div>
 		</div>
-		<div id="header">
-      <h1>Pokedex </h1>
-			<ul id="navigation">
-        <li><a id="link-home" href="#home" class="button-1">Trainer</a></li>
-        <li><a id="link-pokemon1" href="#pokemon1" class="button-1">Pokemon 1</a></li>
-				<li><a id="link-pokemon2" href="#pokemon2" class="button-1">Pokemon 2</a></li>
-        <li><a id="link-pokemon3" href="#pokemon3" class="button-1">Pokemon 3</a></li>
-			</ul>
-		</div>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.0/axios.js"></script>
-    <script src="main.js" charset="utf-8"></script>
-	</body>
+	</div>
+	<div id="header">
+		<ul id="navigation">
+	<li><a id="link-home" href="#home" class="button-1">Trainer</a></li>
+	<li><a id="link-pokemon1" href="#pokemon1" class="button-1">Pokemon 1</a></li>
+			<li><a id="link-pokemon2" href="#pokemon2" class="button-1">Pokemon 2</a></li>
+	<li><a id="link-pokemon3" href="#pokemon3" class="button-1">Pokemon 3</a></li>
+		</ul>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.0/axios.js"></script>
+<script src="main.js" charset="utf-8"></script>
+</body>
+
+
+
+
